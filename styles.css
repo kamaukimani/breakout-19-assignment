@@ -1,47 +1,81 @@
-span{
-    color: orangered
-}
-.abutton{
-    background: white;
-    color: red;
-    border: 1px solid orange;
-    border-radius: 50px;
-    text-decoration: none;
+#btn1{
+    border-radius: 40px;
+    height: 30px;
 }
 body{
-    background-color:#eb6014;
+    background-color: #ec6f2c;
     color: white;
-    text-align: center;
-    
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+}
+span{
+    color: #d3a27f;
 }
 h1{
     color: white;
     font-weight: bold;
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    margin-left: 10%;
+    left: 0;
+    
 }
 #h1{
     color: white;
     font-size: 42px;
     
 }
-#p1{
-    font-size: 20px;
-    font-weight: bolder;
+.one{
+    margin-top: 0;
+    font-size: x-large;
+}
+.divtwo{
+    left: 0;
+    padding-left: 10%;
+}
+.btn{
+    margin-left: 20%;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.divthree{
+    padding-left: 10%;
+    margin-top: 5%;
+}
+.divfour{
+    padding-left: 10%;
+    margin-top: 5%;
+}
+#car{
+    height: 100px;
+    width: 200px;
+    float: right;
+    padding-right: 30%;
 }
 
 .formdiv{
     text-align: cent;
     border: 5px solid white;
-    border-radius: 10px;
-    width: 700px;
-    height: 450px;
+    border-radius: 50px;
+    width: 500px;
+    height: 400px;
     margin: auto;
-    display: ;
-    justify-content: space-evenly;
     padding: 40px;
-    
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#sub{
+    margin-left: 40%;
+}
+.align{
+    text-align: center;
 }
 input{
     width: 30vw;
@@ -55,6 +89,17 @@ textarea{
     width: 30vw;
 
 }
-.duty{
-    text-align: center;
+footer{
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+}
+#logos{
+    width: 50px;
+}
+div{
+    margin-top: 5%;
+}
+button{
+    color: brown;
 }
